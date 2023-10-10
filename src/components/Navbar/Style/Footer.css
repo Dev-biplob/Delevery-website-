@@ -1,0 +1,49 @@
+.footer{
+    background: rgb(177, 169, 182);
+    background: linear-gradient(90deg, rgb(227, 219, 233) 0%, rgb(192, 177, 177) 0%, rgb(216, 216, 196) 100%, rgba(252,176,69,1) 100%);
+}
+
+
+.footer-logo a {
+    text-decoration: none;
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.footer-logo p{
+    margin-bottom: 1rem;
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.importent-link ul li a {
+    color: black;
+    margin-bottom: 1rem;
+    display: inline-block;
+    margin-left: -1.6rem;
+}
+.icons a i{
+    color:whitesmoke;
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+/* mobile css start */
+@media only screen and (max-width: 600px) {
+    .footer-wraper{
+     
+        grid-template-columns:1fr;
+    
+    }
+    .res{
+        text-align: left;
+    }
+    
+  }
+  

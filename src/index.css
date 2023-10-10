@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 10px 20px ;
+    background-color:rgb(236, 12, 12);
+    display: block;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .btn:hover{
+    color: red;
+    background-color: whitesmoke;
+  }
+  a.nav-link {
+    color: rgb(0, 0, 0);
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    font-family: cursive;
+}
+
+img{
+    max-width: 100%;
+}
+ul {
+
+}
+ul li{
+    list-style: none;
+  
+}
+ul li a{
+   
+    text-decoration: none;
+}

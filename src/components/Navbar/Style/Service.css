@@ -1,0 +1,46 @@
+
+/*  service css start */
+.service{
+    background: rgb(202, 199, 204);
+    background: linear-gradient(90deg, rgb(228, 225, 230) 0%, rgb(247, 242, 242) 0%, rgb(224, 224, 215) 100%, rgba(252,176,69,1) 100%);
+}
+.service-wraper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    height: 100%;
+}
+.service-box{
+    text-align: center;
+    align-self: center;
+}
+.icon i{
+    color:red;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.service-box h3{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.service-box p{
+    color: rgb(105, 98, 98);
+    font-weight: 400;
+
+}
+
+/* mediya quarry css start */
+
+@media only screen and (max-width: 600px) {
+    .service-wraper{
+   
+        grid-template-columns: 1fr;
+    }
+    .icon i{
+        font-size: 2rem;
+    }
+ 
+  }
+
+  
